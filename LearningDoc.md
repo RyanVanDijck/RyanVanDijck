@@ -9,6 +9,8 @@
     - [Bob's Bagels Red](#bobs-bagels-red)
   - [July 8th 2021](#july-8th-2021)
     - [Coupling Part 2](#coupling-part-2)
+  - [July 9th, 2021](#july-9th-2021)
+    - [Twilio](#twilio)
 - [Week 1](#week-1)
   - [July 2nd, 2021](#july-2nd-2021)
     - [Coupling](#coupling)
@@ -70,6 +72,21 @@ printReceipt (ReceiptPointer = Receipt) {
 }
 ```
 This is so that you can provide an alternative of the receipt class in the method, which means that the class has become more decoupled.  
+
+## July 9th, 2021
+### Twilio
+I used the twilio service and npm library to send a text message to my phone. 
+
+```js
+client.messages
+  .create({
+     body: 'This is my test message',
+     from: '**********',
+     to: '**********'
+   })
+  .then(message => console.log(message.sid));
+```
+![Recieved Message from Twilio](Screenshot_20210709-101100_Messages.jpg)
 
 # Week 1
 ## July 2nd, 2021 
