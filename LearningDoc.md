@@ -23,12 +23,23 @@
 
 Refactored Bob's Bagel Green based on things noticed on the 6th
 
-![pairprogramming](Pair%20Programming.png)
+![pairprogramming](images/Week2/Pair%20Programming.png)
 
 ## July 7th, 2021 
 ### Bob's Bagels Red
 Started work on Bob's Bagels Red edition. Managed to create a domain model. 
-![](Screenshot%20from%202021-07-07%2016-45-32.png)
+Object|Properties|Messages|Context|Output
+---|---|---|---|---
+Basket|max_capacity @Number|Order|Basket Not Full and Item exists|@Array[@String]
+||basket @array[@String]||Basket is full|@Error[@String 'Basket is full']
+||cost @Cost||Item not found|@String
+||receipt @reciept|Remove|Exists In Basket|@Array[@String]
+||||Does not exist in basket|@Error[@String "Was never in your basket."]
+|Receipt|totalPrices @Number|quantity|Basket Object|@String
+|||getPrice|Item and number of that Item given|@Number
+Cost|total @Number|total|Basket Given|@String
+|||howMany|Basket and item given|@Number
+|||
 
 ## July 8th 2021
 ### Coupling Part 2 
@@ -86,7 +97,7 @@ client.messages
    })
   .then(message => console.log(message.sid));
 ```
-![Recieved Message from Twilio](Screenshot_20210709-101100_Messages.jpg)
+![Recieved Message from Twilio](images/Week2/twilio.jpg)
 
 # Week 1
 ## July 2nd, 2021 
