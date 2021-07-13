@@ -2,6 +2,12 @@
 
 
 - [Learning Doc](#learning-doc)
+- [Week 3](#week-3)
+  - [July 12th, 2021](#july-12th-2021)
+    - [Bank Challenge](#bank-challenge)
+    - [Thermostat](#thermostat)
+  - [July 13th, 2021](#july-13th-2021)
+    - [Cypress](#cypress)
 - [Week 2](#week-2)
   - [July 6th, 2021](#july-6th-2021)
     - [Refactor Bob's Bagel Green](#refactor-bobs-bagel-green)
@@ -16,6 +22,27 @@
     - [Coupling](#coupling)
   - [July 4th, 2021](#july-4th-2021)
     - [Airport Challenge](#airport-challenge)
+
+# Week 3 
+
+## July 12th, 2021
+
+### Bank Challenge
+I gave and recieved feedback for the bank challenge. I thought I did well overall, but others had interesting ideas on how to make the code neater and easier to read. 
+
+### Thermostat
+We wrote a thermostat class in a pair. This involved in depth pair programming. 
+https://github.com/RyanVanDijck/Thermostat/commits/master
+
+## July 13th, 2021 
+
+### Cypress 
+I started by learning the basics on how to write tests and run tests using the Cypress framework. 
+
+This framework allows you to write tests that look at the contents of a webpage. 
+
+I changed code to pass prewritten tests. 
+
 
 # Week 2
 ## July 6th, 2021 
