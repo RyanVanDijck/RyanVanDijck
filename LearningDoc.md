@@ -11,6 +11,7 @@
     - [Thermostat Visual](#thermostat-visual)
   - [July 14th, 2021](#july-14th-2021)
     - [JQuery](#jquery)
+    - [Async Programming](#async-programming)
 - [Week 2](#week-2)
   - [July 6th, 2021](#july-6th-2021)
     - [Refactor Bob's Bagel Green](#refactor-bobs-bagel-green)
@@ -84,7 +85,29 @@ $( document ).ready(function() {
   })
 });
 ```
+### Async Programming 
 
+Afterwards, I completed work based on Async programming with a pair partner. The purpose of the exercise was to run code that involved functions that need to wait for something. We needed to predict in what order different lines of code would run.
+
+```js
+console.log(1)
+$(document).click(function(clickEvent) {
+    console.log(3)
+    console.log("The click event:", clickEvent);
+    console.log(4)
+});
+console.log(2)
+```
+
+```js
+console.log(1)
+setTimeout(function hiThere(){
+    console.log("Hi there!");
+  console.log(3)
+  console.log(4)
+  },0)
+console.log(2);
+```
 
 # Week 2
 ## July 6th, 2021 
