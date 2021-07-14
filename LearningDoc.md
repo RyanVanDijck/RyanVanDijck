@@ -49,7 +49,9 @@ I changed code to pass prewritten tests.
 ### Thermostat Visual
 I was able to convert the thermostat class into a visual webpage. 
 
-![Video of Thermostat](images/Week3/Thermostat.mp4); 
+<video width="320" height="240" controls>
+  <source src="./images/Week3/Thermostat.mp4" type="video/mp4">
+</video>
 
 ## July 14th, 2021
 
