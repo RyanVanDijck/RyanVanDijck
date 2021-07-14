@@ -51,6 +51,7 @@ I was able to convert the thermostat class into a visual webpage.
 
 https://user-images.githubusercontent.com/71043499/125642602-d760f281-c10d-4888-8492-fac809a99ff7.mp4
 
+https://github.com/RyanVanDijck/RyanVanDijck/blob/main/images/Week3/Thermostat.mp4
 
 
 ## July 14th, 2021
