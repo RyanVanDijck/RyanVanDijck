@@ -8,6 +8,9 @@
     - [Thermostat](#thermostat)
   - [July 13th, 2021](#july-13th-2021)
     - [Cypress](#cypress)
+    - [Thermostat Visual](#thermostat-visual)
+  - [July 14th, 2021](#july-14th-2021)
+    - [JQuery](#jquery)
 - [Week 2](#week-2)
   - [July 6th, 2021](#july-6th-2021)
     - [Refactor Bob's Bagel Green](#refactor-bobs-bagel-green)
@@ -42,6 +45,44 @@ I started by learning the basics on how to write tests and run tests using the C
 This framework allows you to write tests that look at the contents of a webpage. 
 
 I changed code to pass prewritten tests. 
+
+### Thermostat Visual
+I was able to convert the thermostat class into a visual webpage. 
+
+![Video of Thermostat](images/Week3/Thermostat.mp4); 
+
+## July 14th, 2021
+
+### JQuery 
+
+I was able to learn the basics of JQuery, and use it to simplify the source code of the thermostat. 
+
+```js 
+$( document ).ready(function() {
+  const thermostat = new Thermostat();
+  
+  $("#power").text(thermostat.onPowerSaving());
+  
+  $( "#down" ).click(function( event ) {
+    $( "#message" ).text(thermostat.down()); 
+    $("#usage").text(thermostat.getUsage()); 
+  });
+
+  $("#button").click((event) => {
+    $( "#message" ).text(thermostat.up());
+    $("#usage").text(thermostat.getUsage()); 
+  })
+  $("#change").click((event) => {
+    thermostat.changePowerSaving();
+    $("#power").text(thermostat.onPowerSaving());
+    
+  })
+  $("#reset").click((event) => {
+    $("#message").text(thermostat.reset);
+    $("#usage").text(thermostat.getUsage());
+  })
+});
+```
 
 
 # Week 2
