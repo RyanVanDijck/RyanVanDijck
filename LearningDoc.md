@@ -108,7 +108,6 @@ Basket|max_capacity @Number|Order|Basket Not Full and Item exists|@Array[@String
 |||getPrice|Item and number of that Item given|@Number
 Cost|total @Number|total|Basket Given|@String
 |||howMany|Basket and item given|@Number
-|||
 
 ## July 8th 2021
 ### Coupling Part 2 
