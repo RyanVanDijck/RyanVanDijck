@@ -12,6 +12,9 @@
   - [July 14th, 2021](#july-14th-2021)
     - [JQuery](#jquery)
     - [Async Programming](#async-programming)
+  - [July 15, 2021](#july-15-2021)
+    - [Ajax](#ajax)
+    - [Process observations](#process-observations)
 - [Week 2](#week-2)
   - [July 6th, 2021](#july-6th-2021)
     - [Refactor Bob's Bagel Green](#refactor-bobs-bagel-green)
@@ -108,6 +111,31 @@ setTimeout(function hiThere(){
   },0)
 console.log(2);
 ```
+
+## July 15, 2021
+### Ajax 
+We started by trying to add an api to the thermostat. 
+
+```js
+function getTemp(){
+  return $.get(`http://api.openweathermap.org/data/2.5/weather?q=London&appid=${appid}`, (response) => {
+    console.log(response.main.temp);
+    return (response.main.temp - 273.15).toFixed(0); 
+  });
+}
+
+$( document ).ready(function() {
+  const temp = setTimeout(() => {
+    return getTemp(); 
+  }, 0);
+```
+
+This involved using a weather api to acces the current temperature. There was a minor error. 
+
+### Process observations
+I needed to do a process observation today. It mainly went well, but I had some difficulties with eslint and vscode. 
+
+I could improve by thinking about and writing tests about the core functionality before thinking about the state of the program. 
 
 # Week 2
 ## July 6th, 2021 
