@@ -65,7 +65,7 @@ it('App test', () => {
     cy.get('#greeting').should("contain", "hello world");
 })
 ```
-![Screenshot of passing cypress tests](images/Week4/ReactHelloWorld.png)
+![Screenshot of passing cypress tests](images/Week4/CypressTestRun.png)
 
 #### React Test
 
