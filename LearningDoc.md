@@ -111,7 +111,8 @@ I changed code to pass prewritten tests.
 ### Thermostat Visual
 I was able to convert the thermostat class into a visual webpage.
 
-https://user-images.githubusercontent.com/71043499/125642602-d760f281-c10d-4888-8492-fac809a99ff7.mp4
+https://user-images.githubusercontent.com/71043499/126235319-215d9044-1675-4a3c-9360-1202f3c19573.mp4
+
 
 
 ## July 14th, 2021
