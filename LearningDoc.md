@@ -1,12 +1,12 @@
 # Learning Doc
 
-
 - [Learning Doc](#learning-doc)
 - [Week 4](#week-4)
   - [July 19th, 2021](#july-19th-2021)
     - [React](#react)
       - [Cypress Test](#cypress-test)
       - [React Test](#react-test)
+    - [To do list](#to-do-list)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -80,6 +80,13 @@ test('renders learn react link', () => {
 });
 ```
 ![The first react test passing](images/Week4/ReactFirstTestPass.png)
+
+### To do list
+We need to create a to do list using React. 
+
+Today we created a heading, input box, and button by test driving it in react and cypress. 
+
+![First screenshot of todo list](images/Week4/Todo1.png)
 
 # Week 3
 
