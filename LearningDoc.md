@@ -9,6 +9,7 @@
     - [To do list](#to-do-list)
   - [July 20th, 2021](#july-20th-2021)
     - [Chameleon](#chameleon)
+    - [Todo list](#todo-list)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -127,6 +128,26 @@ class ColourChange extends Component{
 export default ColourChange
 ```
 
+### Todo list
+We were able to store typed tasks in an array.
+
+```js
+input = (event) => {
+  event.preventDefault()
+  this.setState({text: event.target.value})
+}
+  
+submit = (event) => {
+  event.preventDefault()
+  this.state.tasks.push(this.state.text)
+  alert(this.state.tasks)
+}
+```
+![First image of adding string to array](images/Week4/todoadd1.png)
+![One string stored](images/Week4/todoadd2.png)
+![Adding second string](images/Week4/todoadd3.png)
+![First and second string stored](images/Week4/todoadd4.png)
+  
 # Week 3
 
 ## July 12th, 2021
