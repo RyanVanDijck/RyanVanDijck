@@ -127,6 +127,7 @@ class ColourChange extends Component{
 
 export default ColourChange
 ```
+https://user-images.githubusercontent.com/71043499/126317085-31245f93-09d6-44d5-945c-08965a536e09.mp4
 
 ### Todo list
 We were able to store typed tasks in an array.
@@ -229,7 +230,7 @@ setTimeout(function hiThere(){
 console.log(2);
 ```
 
-## July 15, 2021
+## July 15th, 2021
 ### Ajax
 We started by trying to add an api to the thermostat.
 
