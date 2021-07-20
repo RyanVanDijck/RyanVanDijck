@@ -7,6 +7,8 @@
       - [Cypress Test](#cypress-test)
       - [React Test](#react-test)
     - [To do list](#to-do-list)
+  - [July 20th, 2021](#july-20th-2021)
+    - [Chameleon](#chameleon)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -87,6 +89,43 @@ We need to create a to do list using React.
 Today we created a heading, input box, and button by test driving it in react and cypress. 
 
 ![First screenshot of todo list](images/Week4/Todo1.png)
+
+## July 20th, 2021 
+
+### Chameleon 
+I needed to create a react application that changed the colour of a heading when I clicked the coresponding button. 
+
+```js 
+import React, { Component } from 'react'
+
+class ColourChange extends Component{
+    constructor(props) {
+        super(props)
+        this.state = { Colour:''}
+    }
+    red = () => {
+        this.setState({Colour: 'red'});
+    }
+    blue = () => {
+        this.setState({Colour: 'blue'});
+    }
+    green = () => {
+        this.setState({Colour: 'green'});
+    }
+    render(){
+        return(
+            <div>
+                <h1 style={{color : this.state.Colour}}>I am a Chameleon</h1>
+                <button onClick={this.red}>Red</button>
+                <button onClick={this.blue}>Blue</button>
+                <button onClick={this.green}>Green</button>
+            </div>
+        )
+    }
+}
+
+export default ColourChange
+```
 
 # Week 3
 
