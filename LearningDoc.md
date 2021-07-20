@@ -209,7 +209,7 @@ setTimeout(function hiThere(){
 console.log(2);
 ```
 
-## July 15, 2021
+## July 15th, 2021
 ### Ajax
 We started by trying to add an api to the thermostat.
 
