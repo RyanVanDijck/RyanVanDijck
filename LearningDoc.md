@@ -20,7 +20,7 @@
   - [July 14th, 2021](#july-14th-2021)
     - [JQuery](#jquery)
     - [Async Programming](#async-programming)
-  - [July 15, 2021](#july-15-2021)
+  - [July 15th, 2021](#july-15th-2021)
     - [Ajax](#ajax)
     - [Process observations](#process-observations)
 - [Week 2](#week-2)
