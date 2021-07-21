@@ -10,7 +10,7 @@
   - [July 20th, 2021](#july-20th-2021)
     - [Chameleon](#chameleon)
     - [Todo list](#todo-list)
-  - [July 20th, 2021](#july-20th-2021-1)
+  - [July 21st, 2021](#july-21st-2021)
     - [Emotional intelligence](#emotional-intelligence)
     - [Learning doc feedback part 2](#learning-doc-feedback-part-2)
 - [Week 3](#week-3)
@@ -152,7 +152,7 @@ submit = (event) => {
 ![Adding second string](images/Week4/todoadd3.png)
 ![First and second string stored](images/Week4/todoadd4.png)
 
-## July 20th, 2021
+## July 21st, 2021
 
 ### Emotional intelligence
 We had a talk about emotional intellgence. Having emotional intelligence essentially means that you are aware of your emotions, why you feel them and that you can deal with them in a constructive way. 
