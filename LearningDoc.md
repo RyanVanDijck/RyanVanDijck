@@ -10,6 +10,9 @@
   - [July 20th, 2021](#july-20th-2021)
     - [Chameleon](#chameleon)
     - [Todo list](#todo-list)
+  - [July 20th, 2021](#july-20th-2021-1)
+    - [Emotional intelligence](#emotional-intelligence)
+    - [Learning doc feedback part 2](#learning-doc-feedback-part-2)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -148,6 +151,18 @@ submit = (event) => {
 ![One string stored](images/Week4/todoadd2.png)
 ![Adding second string](images/Week4/todoadd3.png)
 ![First and second string stored](images/Week4/todoadd4.png)
+
+## July 20th, 2021
+
+### Emotional intelligence
+We had a talk about emotional intellgence. Having emotional intelligence essentially means that you are aware of your emotions, why you feel them and that you can deal with them in a constructive way. 
+
+We also talked about reflection and how it is important to reflect on aspects of ourselves that we feel need
+improvement, while also not allowing these measures to become obstrucive in our daily lives. 
+
+### Learning doc feedback part 2 
+Today I gave and recieved feedback about learning documentation. Based on the feedback, I have 
+decided to include more reflection in these entries, rather than just details about what I achieved over the day. 
   
 # Week 3
 
