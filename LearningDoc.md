@@ -13,6 +13,8 @@
   - [July 21st, 2021](#july-21st-2021)
     - [Emotional intelligence](#emotional-intelligence)
     - [Learning doc feedback part 2](#learning-doc-feedback-part-2)
+  - [July 22nd, 2021](#july-22nd-2021)
+    - [React Api](#react-api)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -163,6 +165,23 @@ improvement, while also not allowing these measures to become obstrucive in our 
 ### Learning doc feedback part 2 
 Today I gave and recieved feedback about learning documentation. Based on the feedback, I have 
 decided to include more reflection in these entries, rather than just details about what I achieved over the day. 
+
+## July 22nd, 2021
+
+### React Api
+
+I was able to use React and JQuery to make a call to the github api. 
+
+```js 
+function getData() {
+  $.get("https://api.github.com/users/RyanVanDijck"
+  ).done((data) => {
+   console.log(data.login)
+  })
+}
+```
+
+I am still stuggling with async programming and am still unsure about react. 
   
 # Week 3
 
