@@ -15,6 +15,8 @@
     - [Learning doc feedback part 2](#learning-doc-feedback-part-2)
   - [July 22nd, 2021](#july-22nd-2021)
     - [React Api](#react-api)
+  - [July 23rd, 2021](#july-23rd-2021)
+    - [Word Game](#word-game)
 - [Week 3](#week-3)
   - [July 12th, 2021](#july-12th-2021)
     - [Bank Challenge](#bank-challenge)
@@ -182,6 +184,13 @@ function getData() {
 ```
 
 I am still stuggling with async programming and am still unsure about react. 
+
+## July 23rd, 2021
+
+### Word Game
+On build day, I created a basic version of an hangman game using react. 
+
+![Screenshot of word game](images/Week4/Word_Guess.png)
   
 # Week 3
 
