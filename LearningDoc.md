@@ -1,6 +1,9 @@
 # Learning Doc
 
 - [Learning Doc](#learning-doc)
+- [Week 5](#week-5)
+  - [July 27th, 2021](#july-27th-2021)
+    - [Http Request](#http-request)
 - [Week 4](#week-4)
   - [July 19th, 2021](#july-19th-2021)
     - [React](#react)
@@ -44,6 +47,17 @@
     - [Coupling](#coupling)
   - [July 4th, 2021](#july-4th-2021)
     - [Airport Challenge](#airport-challenge)
+
+# Week 5
+
+## July 27th, 2021
+
+### Http Request
+We drew a diagram to explain the process of an http transfer when you visit a website. 
+
+![Diagram of http request](images/Week5/Http%20Diagram.png)
+
+
 
 # Week 4
 
