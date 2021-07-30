@@ -4,6 +4,12 @@
 - [Week 5](#week-5)
   - [July 27th, 2021](#july-27th-2021)
     - [Http Request](#http-request)
+  - [July 28th, 2021](#july-28th-2021)
+    - [Battle](#battle)
+  - [July 29th, 2021](#july-29th-2021)
+    - [Battle Part 2](#battle-part-2)
+  - [July 31st, 2021](#july-31st-2021)
+    - [Birthday](#birthday)
 - [Week 4](#week-4)
   - [July 19th, 2021](#july-19th-2021)
     - [React](#react)
@@ -57,7 +63,21 @@ We drew a diagram to explain the process of an http transfer when you visit a we
 
 ![Diagram of http request](images/Week5/Http%20Diagram.png)
 
+## July 28th, 2021
 
+### Battle 
+
+Started work on a battle game, managed to display player names
+
+## July 29th, 2021
+
+### Battle Part 2
+Added damage and paralysis to game. 
+
+## July 31st, 2021
+
+### Birthday
+With a pair partner, I worked on a simple server based program that would check how far away your birthday is. 
 
 # Week 4
 
