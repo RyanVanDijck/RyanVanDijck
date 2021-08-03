@@ -64,7 +64,7 @@
 
 ### Postgressql
 
-I was able to install and initialise postgress ony my machine. 
+I was able to install and initialise postgress on my machine. 
 
 ![Screenshot of started up postgress](images/Week6/postgressInit.png)
 
