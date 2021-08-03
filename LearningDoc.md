@@ -1,6 +1,9 @@
 # Learning Doc
 
 - [Learning Doc](#learning-doc)
+- [Week 6](#week-6)
+  - [August 2nd, 2021](#august-2nd-2021)
+  - [Postgressql](#postgressql)
 - [Week 5](#week-5)
   - [July 27th, 2021](#july-27th-2021)
     - [Http Request](#http-request)
@@ -53,6 +56,15 @@
     - [Coupling](#coupling)
   - [July 4th, 2021](#july-4th-2021)
     - [Airport Challenge](#airport-challenge)
+
+# Week 6
+## August 2nd, 2021
+
+## Postgressql
+
+I was able to install and initialise postgress ony my machine. 
+
+![Screenshot of started up postgress](images/Week6/postgressInit.png)
 
 # Week 5
 
