@@ -6,6 +6,8 @@
     - [Postgressql](#postgressql)
   - [August 3rd, 2021](#august-3rd-2021)
     - [Sequelize](#sequelize)
+  - [August 4th, 2021](#august-4th-2021)
+  - [Bookmark Manager](#bookmark-manager)
 - [Week 5](#week-5)
   - [July 27th, 2021](#july-27th-2021)
     - [Http Request](#http-request)
@@ -102,6 +104,17 @@ sequelize.sync().then(async () => {
   });
 });
 ```
+
+## August 4th, 2021
+
+## Bookmark Manager
+
+Made good progress with bookmark manager project. 
+
+We are able to delete and update the bookmarks. 
+
+
+
 
 # Week 5
 
